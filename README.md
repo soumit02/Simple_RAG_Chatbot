@@ -87,8 +87,8 @@ Follow these step-by-step instructions to run the project on your local machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/soumit02/Simple_RAG_Chatbot.git
+cd Simple_RAG_Chatbot
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -113,8 +113,8 @@ Create a `.env` file in the **root directory** of the project and add your API c
 
 ```env
 GROQ_API_KEY="your_groq_api_key_here"
-BASE_URL="[https://api.groq.com/openai/v1](https://api.groq.com/openai/v1)"
-MODEL_NAME="llama-3.3-70b-versatile"
+BASE_URL="https://api.groq.com/openai/v1"
+MODEL_NAME="your model"
 ```
 *(Note: Since this project uses `ChatOpenAI` with a custom `BASE_URL`, you can easily swap Groq with OpenAI, OpenRouter, or Together AI just by changing the `.env` values!)*
 
